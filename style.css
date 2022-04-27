@@ -1,0 +1,71 @@
+body{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    flex-direction: column; 
+    box-sizing: border-box; 
+    background-color: #B4E197;
+}
+form{
+    width: 500px;
+    border: 2px solid ;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+}
+h1{
+    text-align: center; 
+    color: #4E944F;
+    font-family: cursive;
+}
+label{
+    color: rgb(3, 3, 3);
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input[type=submit]{
+    float: inline-start; 
+    background: #4E944F; 
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    margin-left: 10px;
+}
+input[type=radio]{
+    margin-left: 20px;
+}
+h3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+input[type=text]{
+    display: block;
+    border: 2px solid #CCC;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+input[type=password]{
+    display: block;
+    border: 2px solid #CCC;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+input[type=email]{
+    display: block;
+    border: 2px solid #CCC;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px; 
+    margin-left: 10px;
+}

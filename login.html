@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Plant Lifestyle - LOGIN </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <form name="login" method="POST" action="index.html" onsubmit= "validateform()">
+            <h1>My Plant Lifestyle</h1>
+            <h3>LOGIN</h3>
+            <label>User Id: </label> <br>  
+            <input type="text" placeholder="Enter Username" name="username" required> <br>  
+            <label>Password:</label> <br>  
+            <input type="password" placeholder="Enter Password" name="password" required>  <br> <br>  
+            <input type="submit" value="Login">
+        </form>
+        <script>
+            function validateform(){  
+                var name=document.login.username.value;  
+                var password=document.login.password.value;  
+                if (name==null || name==""){  
+                    alert("Field is Empty!");  
+                    return false;  
+                }else if(password.length < 8){  
+                    alert("Password must be at least 8 characters long.");  
+                    return false;  
+                }  
+            }  
+        </script>
+    </body>
+</html> 
